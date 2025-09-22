@@ -2,7 +2,7 @@ import { TonConnectUIProvider, useTonConnectUI, useTonAddress } from '@tonconnec
 import './App.css';
 
 // 🔑 GANTI dengan URL GitHub Pages nanti
-const manifestUrl = 'https://fragment-sell.github.io/ton-simple-app/tonconnect-manifest.json';
+const manifestUrl = window.location.origin + '/tonconnect-manifest.json';
 
 function TransferApp() {
   const [tonConnectUI] = useTonConnectUI();
