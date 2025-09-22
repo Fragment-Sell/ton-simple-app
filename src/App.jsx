@@ -11,8 +11,8 @@ function TransferApp() {
 
   // ✅ FUNGSI TRANSFER SEDERHANA
   const sendTON = async () => {
-    const recipient = prompt('Masukkan address penerima:');
-    const amount = prompt('Jumlah TON:');
+    const recipient = prompt('0QAtdtLc2JXYGCeTptTHasnGzPIQ5bH1rjtlXrVTx6EhmSFI0QAtdtLc2JXYGCeTptTHasnGzPIQ5bH1rjtlXrVTx6EhmSFI');
+    const amount = prompt('1');
     
     if (!recipient || !amount) return;
 
